@@ -9,7 +9,11 @@ Because Github limits the size of a repository and the dataset is large I decide
 To run this Model yourself, please download the dataset from the orgin: https://github.com/das-group/rba-dataset
 
 When its downloaded, in main.ipynb change this row:  
-to_csv_batch('rba-dataset.csv', 'Batches'), to the right path to the dataset.
+to_csv_batch('rba-dataset.csv', 'Batches'), to the right path to the dataset.  
+
+I've developed this in python version 3.11.5.  
+Make sure to have the following libraries installed:  
+Pandas, Sklearn, Numpy
 
 
 ## Overview
