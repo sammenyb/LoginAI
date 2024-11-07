@@ -49,8 +49,8 @@ Is Account Takeover        | Boolean   | Login attempt was identified as account
 
 ### Processed Dataset
 
-This modified dataset is converted to a numerical format so that the DBSCAN model can process it properly. 
-A combination of cyclic encoding, frequency encoding was used. 
+This modified dataset is converted to a numerical format so that the DBSCAN model can process it properly.  
+A combination of label encoding, frequency encoding was used. Might be suitable with cyclic encoding in the future. 
 
 Feature                    | Data Type | Description                                                                                      | Number Range
 ---------------------------|-----------|--------------------------------------------------------------------------------------------------|------------------------------------------------------
@@ -79,26 +79,3 @@ is_attack_ip               | Integer   | IP address was found in known attacker 
 is_account_takeover        | Integer   | Login attempt was identified as account takeover by incident response team of the online service | 0 - 1
 
 
-
-
-
-
-## License
-
-This data set and the contents of this repository are licensed under the
-[Creative Commons Attribution 4.0 International (CC BY 4.0)] license.
-See the [LICENSE](LICENSE) file for details.  If the data set is used
-within a publication, the following journal article has to be cited as
-the source of the data set:
-
-Stephan Wiefling, Paul René Jørgensen, Sigurd Thunem, and Luigi Lo
-Iacono: Pump Up Password Security! Evaluating and Enhancing Risk-Based
-Authentication on a Real-World Large-Scale Online Service. In: ACM
-Transactions on Privacy and Security (2022). doi: [10.1145/3546069](https://doi.org/10.1145/3546069)
-
-
-
-[Pump Up Password Security! Evaluating and Enhancing Risk-Based Authentication on a Real-World Large-Scale Online Service]: https://doi.org/10.1145/3546069
-[Risk-Based Authentication (RBA)]: https://riskbasedauthentication.org
-[Freeman et al. (2016)]: https://doi.org/10.14722/ndss.2016.23240
-[Creative Commons Attribution 4.0 International (CC BY 4.0)]: https://creativecommons.org/licenses/by/4.0/
